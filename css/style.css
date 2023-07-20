@@ -1,11 +1,13 @@
-
+.header {
+    width: 100% auto;
+}
 .header_menu {
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    height: 50px;
 }
 .header_left {
-    width: 110px;
-    height: 30px;
     margin-top: 10px;
 }
 .header_right-link {
@@ -25,7 +27,6 @@
 }
 .firstview_img {
     width: 60%;
-
 }
 .firstview_ttl {
     position: absolute;
@@ -351,6 +352,7 @@
     margin: 40px auto;
 }
 .inpuiry_btn {
+    position: relative;
     background: linear-gradient(90deg,#d065a8,#C71585);
     padding: 15px 50px;
     text-decoration: none;
@@ -362,9 +364,22 @@
     margin: 0 auto ;
     text-align: center;
 }
+.inpuiry_btn::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 15px;
+    background: url(img/mailicon.svg) no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    transform: translateY(-50%);
+    z-index: 1000px;
+}
 
 .footer {
-    width: 100%;
+    width: 100% auto;
     height: 70px;
     background: #F5F5F5;
     font-size: 10px;
