@@ -1,6 +1,4 @@
-.header {
-    width: 100% auto;
-}
+
 .header_menu {
     display: flex;
     justify-content: space-between;
@@ -23,7 +21,6 @@
 .firstview {
     position: relative;
     text-align: right;
-
 }
 .firstview_img {
     width: 60%;
@@ -71,6 +68,8 @@
     padding-bottom: 30px;
 }
 .news_list {
+    width: 50vw;
+    
     padding-left: 0;
     border-bottom: 1px solid #C0C0C0;
 }
@@ -82,7 +81,7 @@
     font-size: 14px;
     color: #696969;
     text-align: center;
-
+    height: 4vh;
 }
 .news_list-tag {
     background: #C71585;
@@ -198,12 +197,10 @@
     margin: 0 auto;
     background: #F5F5F5;
 }
-
 .blog_card {
     position: relative;
     background: white;
     border-radius: 10px;
-
 }
 .blog_tag {
     font-family: 'Indie Flower', cursive;
@@ -270,26 +267,24 @@
     text-decoration: none;
 }
 
-.company {
-    width: 60%;
-    margin: 0 auto;
-}
 .company_tag {
     font-family: 'Indie Flower', cursive;
     color: #C71585;
-    margin: 30px 0 0 0;
+    margin-left: 20%;
 }
 .company_ttl {
     color: #696969;
     margin-top: 0;
     font-weight: bold;
+    margin-left: 20%;
 }
 .company_table {
     text-align: left;
     border-collapse: collapse;
     border: 1px solid#C0C0C0;
-    margin-bottom: 30px;
-    margin: 40px auto;
+    width: 60vw;
+    height: 70vh;
+    margin: 30px auto;
 }
 .company_table-head {
     background: #F5F5F5;
@@ -336,8 +331,8 @@
 }
 
 .inpuiry {
-    width: 40%;
-    height: 240px;
+    width: 40vw;
+    height: 40vh;
     margin: 0px auto;
 }
 .inpuiry_ttl {
@@ -359,7 +354,7 @@
     color: white;
     border-radius: 30px;
     box-shadow: 0 8px 0 0 #710449;
-    width: 100px;
+    width: 15vh;
     display: block;
     margin: 0 auto ;
     text-align: center;
@@ -370,7 +365,7 @@
     display: inline-block;
     top: 50%;
     left: 15px;
-    background: url(img/mailicon.svg) no-repeat;
+    background: url(../img/mailicon.svg) no-repeat;
     background-size: cover;
     width: 30px;
     height: 30px;
@@ -379,8 +374,7 @@
 }
 
 .footer {
-    width: 100% auto;
-    height: 70px;
+    height: 10vh;
     background: #F5F5F5;
     font-size: 10px;
     display: flex;
