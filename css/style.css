@@ -68,24 +68,24 @@
     font-weight: bold;
     margin-top: 0;
     color: #696969;
-    border-bottom: 2px solid#C0C0C0;
-    padding-bottom: 30px;
+   
 }
 .news_list {
     width: 50vw;
     padding-top: 20px;
     padding-left: 0;
+    padding-bottom: 10px;
     border-bottom: 2px solid #C0C0C0;
+    border-top: 2px solid #C0C0C0;
 }
 .news_list-info {
     list-style: none;
     border-bottom: 1px solid #C0C0C0;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
+    padding: 20px 0;
     font-size: 14px;
     color: #696969;
     text-align: center;
-    height: 4vh;
+
 }
 .news_list-tag {
     background: #C71585;
